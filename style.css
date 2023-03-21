@@ -1,0 +1,134 @@
+body {
+    margin: 0 auto;
+    width: 40%;
+    background-color: black;
+    color: white;
+  }
+  
+  .section{
+    width: 750px;
+  
+    overflow: scroll;
+    background: black;
+    border: 1px solid #000;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  header {
+    position: fixed;
+    width: 40%;
+    top: 0;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  article {
+    padding: 0 20px;
+  }
+  
+  .round {
+    position: relative;
+  }
+  
+  .images {
+    margin: 0 auto;
+    height: 80vh;
+    vertical-align: middle;
+  
+    background: linear-gradient(
+        rgba(15, 15, 15, 0) 10%,
+        rgba(15, 15, 15, 0.25) 25%,
+        rgba(15, 15, 15, 0.5) 50%,
+        rgba(15, 15, 15, 0.8) 75%,
+        rgba(15, 15, 15, 1) 100%
+      ),
+      url("../알랜드이미지/9.jpg");
+    background-size: cover;
+  }
+  
+  .menu1 {
+    font-size: 25px;
+    margin: 5%;
+  }
+  .menu2 {
+    
+    margin: 5%;
+  }
+  
+  .text1 {
+    position: relative;
+    top: 10%;
+    transform: translate(0%, -150%);
+  }
+  .text1 p {
+    color: white;
+    text-align: center;
+  }
+  .text1 b {
+    font-size: 25px;
+  }
+  
+  .images2 img {
+    width: 40%;
+  }
+  .images3 img {
+    width: 105%;
+  }
+  
+  
+  .article2 { 
+    text-align: center;
+  }
+  
+  .article3 {
+    text-align: right;
+  }
+  
+  .article4 {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .article4-text {
+    position: relative;
+    transform: translate(3%, -300%);
+    font-size: 2em;
+  }
+  
+  .article4-text2 {
+    position: relative;
+    transform: translate(0%, -100%);
+  }
+  
+  .wrap4 {
+    position: relative;
+  }
+  
+  footer {
+    background-color: #3a3a3a;
+    color: white;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer button {
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    padding: 6px;
+  }
+  
+  .middle-image { 
+  max-width: 100%;
+  font-size: 1em;
+  }
